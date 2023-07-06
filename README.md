@@ -27,13 +27,15 @@
 Uses gunicorn + nginx. Build the images and run the containers:
 - 최초 빌드 or 수항사항 반영 실행
 ```
-$ docker-compose -f docker-compose.prod.yml up -d --build
+$ docker-compose -f docker-compose.yml up -d --build
 ```
+
 - 기존 이미지 기반 실행
 ```
-$ docker-compose -f docker-compose.prod.yml up -d
+$ docker-compose -f docker-compose.yml up -d
 ```
+
 - 서비스 중지
 ```
-$ docker-compose -f docker-compose.prod.yml down
+$ docker-compose -f docker-compose.yml down
 ```
