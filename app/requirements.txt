@@ -1,0 +1,10 @@
+# django & djang extension
+Django==4.2
+django-bootstrap5==23.1
+django-bootstrap-icons==0.8.3
+
+# python general lib
+pytz==2023.3
+
+# python deploy
+gunicorn==20.1.0

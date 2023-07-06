@@ -1,0 +1,25 @@
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+migrations/
+
+# static
+static/
+staticfiles/
+
+# media
+media/
+
+# env
+.env
+app/.config_secret/settings_common.json
+app/.config_secret/settings_deploy.json
+
+# cache
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
